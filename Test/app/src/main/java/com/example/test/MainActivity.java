@@ -3,6 +3,7 @@ package com.example.test;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -23,5 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 tv.setText("I love bytedance");
             }
         });
+
+        Log.i("111111", "onCreate: 1111");
     }
 }
